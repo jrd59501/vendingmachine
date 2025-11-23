@@ -1,0 +1,86 @@
+[
+    {
+        "id": "snickers",
+        "barcode": "5000159411122",
+        "name": "Snickers",
+        "priceCents": 200,
+        "category": "candy"
+    },
+    {
+        "id": "kitkat",
+        "barcode": "5000159461127",
+        "name": "Kit Kat",
+        "priceCents": 200,
+        "category": "candy"
+    },
+    {
+        "id": "twix",
+        "barcode": "5000159460021",
+        "name": "Twix",
+        "priceCents": 200,
+        "category": "candy"
+    },
+    {
+        "id": "mms",
+        "barcode": "040000000712",
+        "name": "M&M Peanut",
+        "priceCents": 200,
+        "category": "candy"
+    },
+    {
+        "id": "skittles",
+        "barcode": "088590124737",
+        "name": "Skittles",
+        "priceCents": 200,
+        "category": "candy"
+    },
+    {
+        "id": "doritos",
+        "barcode": "0028400025450",
+        "name": "Doritos Nacho Cheese",
+        "priceCents": 150,
+        "category": "chips"
+    },
+    {
+        "id": "cheetos",
+        "barcode": "0028400000877",
+        "name": "Cheetos Crunchy",
+        "priceCents": 150,
+        "category": "chips"
+    },
+    {
+        "id": "laysclassic",
+        "barcode": "0028400183990",
+        "name": "Lay's Classic",
+        "priceCents": 150,
+        "category": "chips"
+    },
+    {
+        "id": "coke",
+        "barcode": "04963406",
+        "name": "Coca-Cola",
+        "priceCents": 175,
+        "category": "drink"
+    },
+    {
+        "id": "redbull",
+        "barcode": "9002490203220",
+        "name": "Red Bull",
+        "priceCents": 250,
+        "category": "drink"
+    },
+    {
+        "id": "sprite",
+        "barcode": "5449000131805",
+        "name": "Sprite",
+        "priceCents": 175,
+        "category": "drink"
+    },
+    {
+        "id": "monster",
+        "barcode": "5060872900062",
+        "name": "Monster Energy",
+        "priceCents": 250,
+        "category": "drink"
+    }
+]

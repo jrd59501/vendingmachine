@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vending Machine Simulator</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
 
-    <h1>Vending Machine Simulator</h1>
+    <h1>Vending Machine Simulator</h1> //
 
-    <section id="product-grid" class="grid"></section> 
-    <section id="money-section">
-        <h2>Balance: $<span id="balance">0.00</span></h2>
+    <div class="balance-box">
+        Balance: $<span id="balance">0.00</span>
+    </div>
 
-        <button class="money-btn" data-amount="1">Insert $1</button>
-        <button class="money-btn" data-amount="5">Insert $5</button>
-        <button class="money-btn" data-amount="10">Insert $10</button>
+    <div class="money-buttons">
 
-        <button id="card-pay-btn">Pay with Card</button>
+    <!-- Coins -->
+    <button class="money-btn" data-amount="1">$0.01</button>
+    <button class="money-btn" data-amount="5">$0.05</button>
+    <button class="money-btn" data-amount="10">$0.10</button>
+    <button class="money-btn" data-amount="25">$0.25</button>
+
+    <!-- Bills -->
+    <button class="money-btn" data-amount="100">$1</button>
+    <button class="money-btn" data-amount="500">$5</button>
+    <button class="money-btn" data-amount="1000">$10</button>
+
+    <!-- Return Money -->
+    <button id="return-btn" class="return-btn">Return Change</button>
+</div>
+
+   
+    <section id="product-grid" class="grid">
+       
     </section>
-    <section id="message-section">
-        <p id="message"></p>
-    </section>
-    <script type="module" src="main.js"></script>
+
+    <button id="buy-btn">Buy</button>
+
+    <div id="message"></div>
+
+    <script type="module" src="./Javascript/main.js"></script>
 </body>
 </html>
