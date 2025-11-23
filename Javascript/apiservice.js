@@ -1,3 +1,4 @@
+//apiservice.js
 export class APIService {
     
     // Searches OFF for a product by keyword and returns the first result with an image

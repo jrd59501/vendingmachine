@@ -1,3 +1,4 @@
+//main.js
 import { VendingMachine } from "./vendingmachine.js";
 import { MoneyHandler } from "./moneyhandler.js";
 import { UIController } from "./uiController.js";

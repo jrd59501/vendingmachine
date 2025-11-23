@@ -1,3 +1,4 @@
+//uiController.js
 export class UIController { 
     constructor(machine, moneyHandler) {
         this.machine = machine;
