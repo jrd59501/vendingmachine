@@ -1,3 +1,4 @@
+//moneyhandler.js
 export class MoneyHandler {
     constructor() {
         this.balance = 0; // stored in cents

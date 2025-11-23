@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+
+    <!-- Correct CSS path -->
+    <link rel="stylesheet" href="./CSS/admin.css">
+
+    <!-- Link back to user view -->
+    <a href="index.html" class="admin-link">User View</a>
+</head>
+
+<body>
+
+<header>Vending Machine — Admin Panel</header>
+
+<div class="container">
+    <h2>Inventory</h2>
+
+    <table id="inventory-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Adjust</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Generate Report</h2>
+    <button id="generate-report-btn" class="btn">Generate Report</button>
+
+    <div id="report-box">
+        <textarea id="report-output" readonly></textarea>
+    </div>
+</div>
+
+<script type="module" src="./Javascript/vendingmachine.js"></script>
+<script type="module" src="./Javascript/moneyhandler.js"></script>
+<script type="module" src="./Javascript/uiController.js"></script>
+<script type="module" src="./Javascript/apiservice.js"></script>
+
+<script type="module" src="./Javascript/admin.js"></script>
+
+</body>
+</html>

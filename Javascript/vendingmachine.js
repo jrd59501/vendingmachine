@@ -1,3 +1,4 @@
+//vendingmachine.js
 export class VendingMachine {
     constructor() {
         this.items = [];
